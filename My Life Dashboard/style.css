@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #0d1117;
+    color: #e6edf3;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 32px;
+    color: #58a6ff;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    color: #8b949e;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+main {
+    max-width: 640px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.card {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 12px;
+    padding: 24px;
+    transition: border-color 0.3s;
+}
+
+.card:hover {
+    border-color: #58a6ff;
+}
+
+.card h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #58a6ff;
+}
+
+.skill {
+    margin-bottom: 16px;
+}
+
+.skill-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #c9d1d9;
+}
+
+.skill-bar {
+    height: 10px;
+    background: #21262d;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.skill-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #58a6ff, #3fb950);
+    border-radius: 6px;
+    transition: width 0.6s;
+}
+
+.status-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.status-item {
+    background: #21262d;
+    border-radius: 8px;
+    padding: 14px;
+    text-align: center;
+}
+
+.status-label {
+    display: block;
+    font-size: 12px;
+    color: #8b949e;
+    margin-bottom: 6px;
+}
+
+.status-value {
+    font-size: 16px;
+    font-weight: bold;
+    color: #e6edf3;
+}
+
+.card h3 {
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: #c9d1d9;
+}
+
+.plan-list {
+    list-style: none;
+    font-size: 14px;
+    line-height: 2;
+    color: #c9d1d9;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #484f58;
+    font-size: 12px;
+}
