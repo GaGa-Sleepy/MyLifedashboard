@@ -5,3 +5,4 @@ A personal life dashboard which could help build your personality.
 ⚙️ 技术栈：HTML5, CSS3, Python (Matplotlib/Pandas)
 🚀 核心功能：前端卡片展示技能熟练度；Python自动处理数据生成成长曲线图。
 🤖 开发模式：借助 AI 辅助编程，我负责架构设计与代码调试。
+Creator:合肥工业大学 26级应化 嘎嘎
